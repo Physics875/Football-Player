@@ -6,15 +6,15 @@ public class MoveToBall : MonoBehaviour
 
     public Rigidbody2D rb2d;
     
-    public float speedBall;
+    public float speedBall; // 100f
     
-    public float speedDribble;
+    public float speedDribble; // 5f
     
-    public float speedLogical;
+    public float speedLogical; // 5f
     
-    public float reasonableDrag;
+    public float reasonableDrag; // 5f
     
-    public float increaseDrag;
+    public float increaseDrag; // 0.2f
     
     private void Awake()
     {
