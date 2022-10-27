@@ -13,13 +13,13 @@ public class ControlMovement : MonoBehaviour
     protected float speed;
     protected float leftRight;
     protected float upDown;
-    protected Quaternion lastRotation;
+    protected Quaternion lastRotation; // with Player has been inherited, this set to < 45
 
     public bool toBall;
     public bool isTouching;
     public bool isDirecting;
     public bool isNotMoving;
 
-    public Transform check;
+    public Transform check; // check ball direction
     public SpriteRenderer spriteDirection;
 }
