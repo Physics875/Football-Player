@@ -13,7 +13,7 @@ public class ControlMovement : MonoBehaviour
     protected float speed;
     protected float leftRight;
     protected float upDown;
-    protected Quaternion lastRotation; // with Player has been inherited, this set to < 45
+    protected Quaternion lastRotation; // with Player has been inherited, this set to < 100 
 
     public bool toBall;
     public bool isTouching;
